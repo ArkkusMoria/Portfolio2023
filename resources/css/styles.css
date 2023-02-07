@@ -20,8 +20,8 @@
     --input-color: hsl(var(--hue-color), 70%, 96%);
     --body-color: hsl(var(--hue-color), 60%, 99%);
     --container-color: rgb(0, 0, 0);
-    --scroll-bar-color: ;
-    --scroll-thumb-color: ;
+    --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
+    --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
@@ -704,12 +704,6 @@ img {
   color: var(--title-color);
 }
 
-/*==================== PROJECT IN MIND ====================*/
-
-
-/*==================== TESTIMONIAL ====================*/
-
-
 /*==================== CONTACT ME ====================*/
 
 
@@ -797,7 +791,16 @@ img {
 }
 
 /*========== SCROLL BAR ==========*/
+::-webkit-scrollbar{
+  width: .60rem;
+  background-color: var(--scroll-bar-color);
+  border-radius: .5rem;
+}
 
+::-webkit-scrollbar-thumb{
+  color: var(--scroll-thumb-color);
+  border-radius: .5rem;
+}
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */

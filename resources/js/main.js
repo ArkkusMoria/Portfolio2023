@@ -69,8 +69,6 @@ tabs.forEach(tab =>{
     })
 })
 
-/*==================== SERVICES MODAL ====================*/
-
 
 /*==================== PORTFOLIO SWIPER  ====================*/
 let swiper = new Swiper(".portfolio__container", {
@@ -85,12 +83,6 @@ let swiper = new Swiper(".portfolio__container", {
       clickable: true,
     },
 });
-
-/*==================== TESTIMONIAL ====================*/
-
-
-/*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
-
 
 /*==================== CHANGE BACKGROUND HEADER ====================*/ 
 function scrollHeader(){
